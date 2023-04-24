@@ -20,7 +20,7 @@ body {
 */
 
 .container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
@@ -81,6 +81,69 @@ body {
 .menu__link-active:hover{
     color: #cebfbf;
     background-color: #5e42b3;
+}
+
+.main{
+    margin-top: 40px;
+}
+
+.page{
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.page-content{
+    width: 50%;
+}
+.page-content__title{
+    color: #160B38;
+    font-size: 70px;
+    position: relative;
+    font-family: "Jost-Bold";
+}
+
+.page-content__title::before{
+    content: "";
+    position: absolute;
+    left: -22px;
+    top: -12px;
+    background: url("../images/Lines.svg") no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+}
+
+.page-content__caption{
+    color: #160B38;
+    font-family: "Jost-Medium";
+    font-size: 22px;
+    line-height: 35px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.page-content__link{
+    background-color: #8054F6;
+    color: #fff;
+    font-family: "Jost-Bold";
+    border-radius: 13px 13px 0 13px;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+    max-width: 146px;
+    text-align: center;
+}
+
+.page__banner{
+    width: 50%;
+}
+.page__img{
+    width: 100%;
 }
 
 /*
