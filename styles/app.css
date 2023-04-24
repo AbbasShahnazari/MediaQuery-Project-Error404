@@ -62,6 +62,11 @@ body {
     color: #160B38;
     font-family: "Jost-Medium";
     display: block;
+    transition: color .5s;
+}
+
+.menu__link:hover{
+    color: #44259f;
 }
 
 .menu__link-active{
@@ -70,6 +75,12 @@ body {
     font-family: "Jost-Bold";
     border-radius: 13px 13px 0 13px;
     padding: 15px 25px;
+    transition: all .5s;
+}
+
+.menu__link-active:hover{
+    color: #cebfbf;
+    background-color: #5e42b3;
 }
 
 /*
