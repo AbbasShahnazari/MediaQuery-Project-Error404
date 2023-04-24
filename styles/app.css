@@ -192,10 +192,27 @@ body {
         margin-left: 0;
         margin-bottom: 22px;
     }
+    .page-content{
+        order: 1;
+        width: 100%;
+    }
+    .page__banner{
+        order: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .page__img{
+        max-width: 370px;
+    }
+    .main {
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 576px) {
     .container {
         max-width: 100%;
+        padding: 0 35px;
     }
 }
